@@ -173,7 +173,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 #header #logo{
   text-align: center;
 
-  display: none;
+  /* display: none; */
 }
 #header h4{
   margin-bottom:0px; 
