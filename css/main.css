@@ -80,7 +80,7 @@ a:hover, a:focus, a:active { text-decoration: none; border: none;color: #C0392B 
 /* MEDIA */
 figure {margin: 0}
 img, object, embed, video {max-width: 100%; _width: 100%} /* Fluid images */
-img {border: 0; -ms-interpolation-mode: bicubic} /* Improve IE's resizing of images */
+img {border: 0; border-radius:50%; border: solid; border-color: white; border-width: 50px; -ms-interpolation-mode: bicubic} /* Improve IE's resizing of images */
 svg:not(:root) {overflow: hidden} /* Correct IE9 overflow */
 
 /* ABBREVIATION */
@@ -586,7 +586,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 
 .my-pic {
-  background-image: url('../images/Fam pic.jpg');
+  width:150px;
+  border-radius: 50%;
+  display: block; 
+  margin: 0 auto; 
 }
 
 .carrot > span {
